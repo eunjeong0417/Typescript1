@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "noImplicitAny": true
+    }
+}
+
+//ts 파일에서 js 파일로 컴파일할때 
+//자동설정
