@@ -69,18 +69,29 @@ log("hello2", "ts")
 
 
 
-// function logMessage(value: any) {
-//     console.log(value);
-// }
+function logMessage(value: any) {
+    console.log(value);
+}
 
 // logMessage("hello");
 // logMessage(100);
 // logMessage(false);
 
 //Union Type
+//파라미터나 변수에 하나 이상의 데이터 타입을 사용할 수 있다
+//타입가드: 특정 타입으로 타입의 번위를 좁혀 나가는 과정
 function logMessage(value: string | number) {
-    console.log(value);
+    if (typeof value === "number") {
+        value.toFixed();
+    }
+    if (typeof value === "string") {
+        value.
+    }
 }
 
 logMessage("hello")
 logMessage(100)
+
+
+//seho라는 변수의 데이터 타입을 string, number, boolean 으로 설정
+let seho: string | number | boolean;
