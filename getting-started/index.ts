@@ -66,3 +66,21 @@ function log( a:string, b?:string) {
 
 log("hello")
 log("hello2", "ts")
+
+
+
+// function logMessage(value: any) {
+//     console.log(value);
+// }
+
+// logMessage("hello");
+// logMessage(100);
+// logMessage(false);
+
+//Union Type
+function logMessage(value: string | number) {
+    console.log(value);
+}
+
+logMessage("hello")
+logMessage(100)
