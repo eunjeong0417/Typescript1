@@ -135,3 +135,34 @@ function askSomeone(someone: Developer & Person) {
     
 }
 askSomeone({ name:"seho", skill: "cook", age:20 })
+
+//숫자형이넘
+//이넘은 특정 값들의 집합
+//enum member 숫자는 자동으로 1씩 증가한다
+// enum Shoes {
+//     Nike,
+//     Adidas,
+//     Sth
+// }
+
+// let myShoes = Shoes.Nike;
+// console.log(myShoes);
+
+//문자형이넘
+// enum Shoes {
+//     Nike = '나이키',
+//     Adidas = '아디다스'
+// }
+
+// let myShoes = Shoes.Nike;
+// console.log(myShoes);
+
+//타입스크립트의 class
+
+class Person {
+ 
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age;
+    }
+}
